@@ -22,3 +22,9 @@ as pfff or codemap.
 If you just want to compile the parsing frontends, then type:
 
    $ ./configure -novisual
+
+Using docker:
+
+docker run -it ubuntu /bin/bash
+apt-get update && apt-get install ocaml swi-prolog openjdk-8-jdk libgtk2.0-dev libcairo2-dev libpango1.0-dev binutils-gold build-essential git
+git clone https://github.com/chrissssss/pfff.git
